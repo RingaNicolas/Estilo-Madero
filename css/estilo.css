@@ -101,37 +101,48 @@ h1 {
 /* Productos */
 
 .tituloProductos {
-    margin-left: 10px;
+    margin: 40px;
+    margin-bottom: 10px;
 }
 
-.contenedorFlex {
-    display: flex;
+.boxProductos {
+    background-color: #E9D9CB;
+    border: #6c757d 1px solid;
 }
 
-.contenedorProductos {
+/* .botonCards {
+    border: 1px solid #3b9e96;
+} */
+
+.botonCards:hover {
+    border: 1px solid #3b9e96 ;
+    background-color: #3b9e96;
+}
+
+/* .contenedorProductos {
     display: flex;
     width: 50%;
     margin: 20px 10px;
     border: 2px solid #563b24;
     border-radius: 5px;
     text-align: center;
-}
+} */
 
-.imgProducto {
+/* .imgProducto {
     background-color: #E9D9CB;
     width: 50%;
     height: auto;
     border-radius: 5px;
-}
+} */
 
-.contenedorProductos p {
+/* .contenedorProductos p {
     background-color: #E9D9CB;
     color: #563b24;
     text-align: center;
     padding: 100px 12.5%;
     font-size: large;
     
-}
+} */
 
 /* Iframes */
 
