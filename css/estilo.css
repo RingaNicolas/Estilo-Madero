@@ -21,25 +21,22 @@ header {
 }
 
 .logo {
-    width: 450px;
-    margin: 10px;
+    width: 350px;
 }
 
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 10px;
-}
-
-nav ul {
-    margin: 10px;
-}
-
-a {
+.navegador {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: black;
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+.navegador:hover {
+    font-size: 1.01rem;
+    color: #6c757d;
+    border-radius: 25px;
 }
 
 /* Footer */
@@ -75,7 +72,8 @@ h1 {
 
 .contenedorIndex {
     background-color: #E9D9CB;
-    margin: 20px;
+    margin: 80px;
+    margin-top: 0;
     padding: 20px;
     border-radius: 10px;
 }
@@ -84,7 +82,7 @@ h1 {
     font-size: 2rem;
     color: #fafafa;
     margin: 20px 0 0 0;
-    background-color: #563b24;
+    background-color: #6c757d;
 }
 
 .textoIndex {
@@ -228,6 +226,10 @@ h5 {
 
 @media (max-width: 768px) {
     /* Index */
+    .contenedorIndex{
+        margin: 40px;
+    }
+
     .textoIndex {
         font-size: 1.2rem;
     }
