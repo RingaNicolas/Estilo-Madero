@@ -1,0 +1,39 @@
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #563b24;
+}
+
+input [type="text"],
+textarea {
+    display: block;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #E9D9CB;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    background-color: #E9D9CB;
+    color: #563b24;
+    border: 0.5px solid #563b24;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.listaContacto li {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 80px;
+}

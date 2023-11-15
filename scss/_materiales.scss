@@ -1,0 +1,14 @@
+.contenedorMateriales {
+    margin: 80px;
+}
+
+.boxMateriales {
+    background-color: #E9D9CB;
+    border: 1px solid #6c757d;
+    margin: 10px;
+
+    &:hover {
+        margin: 13px;
+        border: 2px solid #3b9e96;
+    }
+}

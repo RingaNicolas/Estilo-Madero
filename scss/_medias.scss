@@ -1,0 +1,28 @@
+/* Version Tablet */
+
+@media (max-width: 1024px) {
+
+    /* Index */
+    .textoIndex {
+        font-size: 0.8rem;
+    }
+}
+
+/* Version Celular */
+
+@media (max-width: 768px) {
+
+    /* Index */
+    .contenedorIndex {
+        margin: 40px;
+    }
+
+    .textoIndex {
+        font-size: 1.2rem;
+    }
+
+    /* Materiales */
+    .contenedorMateriales {
+        margin: 20px;
+    }
+}
