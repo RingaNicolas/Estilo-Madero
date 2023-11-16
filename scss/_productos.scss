@@ -1,3 +1,5 @@
+/* PRODUCTOS */
+
 .tituloProductos {
     margin: 40px;
     margin-bottom: 10px;
@@ -5,10 +7,14 @@
 
 .boxProductos {
     background-color: #E9D9CB;
-    border: #6c757d 1px solid;
+    border: $colorSecundario 1px solid;
 }
 
-.botonCards:hover {
-    border: 1px solid #3b9e96;
-    background-color: #3b9e96;
+.botonCards {
+    background-color: $colorSecundario;
+    color: #fafafa;
+    &:hover {
+        border: 1px solid $colorResaltador;
+        background-color: $colorResaltador;
+    }
 }

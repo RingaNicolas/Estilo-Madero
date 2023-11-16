@@ -1,3 +1,5 @@
+/* MEDIA QUERIES */
+
 /* Version Tablet */
 
 @media (max-width: 1024px) {
@@ -5,6 +7,11 @@
     /* Index */
     .textoIndex {
         font-size: 0.8rem;
+    }
+
+    /* Trabajos */
+    iframe {
+        height: 250px;
     }
 }
 
@@ -24,5 +31,10 @@
     /* Materiales */
     .contenedorMateriales {
         margin: 20px;
+    }
+
+    /* Trabajos */
+    iframe {
+        height: 350px;
     }
 }

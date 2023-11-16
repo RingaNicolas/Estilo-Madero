@@ -1,3 +1,5 @@
+/* FOOTER */
+
 footer {
     text-align: center;
     background-color: #E9D9CB;
@@ -7,13 +9,18 @@ footer {
         list-style: none;
         display: inline-block;
         margin: 20px 20px;
-    }
-}
 
-.redesSociales {
-    width: 30px;
+
+        i {
+            color: $colorIconos;
+
+        }
+
+
+    }
 }
 
 .atribucion {
     font-size: x-small;
-}
+    text-align: center;
+} 

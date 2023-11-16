@@ -1,14 +1,16 @@
+/* MATERIALES */
+
 .contenedorMateriales {
     margin: 80px;
 }
 
 .boxMateriales {
     background-color: #E9D9CB;
-    border: 1px solid #6c757d;
+    border: 1px solid $colorSecundario;
     margin: 10px;
 
     &:hover {
         margin: 13px;
-        border: 2px solid #3b9e96;
+        border: 2px solid $colorResaltador;
     }
 }
