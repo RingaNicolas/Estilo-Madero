@@ -13,8 +13,10 @@
 .botonCards {
     background-color: $colorSecundario;
     color: #fafafa;
+    border: none;
     &:hover {
-        border: 1px solid $colorResaltador;
+        border: none;
         background-color: $colorResaltador;
+        color: #fafafa;
     }
 }
