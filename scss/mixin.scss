@@ -1,0 +1,11 @@
+@mixin formularios($ancho, $borde, $redondeo) {
+    width: $ancho;
+    border: $borde;
+    border-radius: $redondeo;
+}
+
+@mixin botones($fondo, $letras, $borde) {
+    background-color: $fondo;
+    color: $letras;
+    border: $borde;
+}

@@ -7,23 +7,19 @@ form {
 label {
     font-weight: bold;
     margin: 5px 0;
-    color: #563b24;
+    color: $colorSecundario;
 }
 
 textarea {
-    width: 100%;
+    @include formularios(100%, 2px solid $colorDetallesPrimario, 5px);
     padding: 10px;
-    border: 2px solid $colorSecundario;
-    border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
 input {
+    @include formularios(50%, 2px solid $colorDetallesPrimario, 5px);
     display: block;
-    width: 50%;
-    border: 2px solid $colorSecundario;
-    border-radius: 5px;
 }
 
 .listaContacto li {
@@ -32,15 +28,13 @@ input {
 }
 
 .botonFormulario {
+    @include botones($colorDetallesPrimario, $colorBlanco, none);
     width: 35%;
-    background-color: $colorSecundario;
-    color: #fafafa;
-    border: none;
     margin: 10px;
     margin-bottom: 20px;
+    transition: all 0.4s;
     &:hover {
-        border: none;
-        background-color: $colorResaltador;
-        color: #fafafa;
+        transform: scale(1.02, 1.02);
+        @include botones($colorDetallesSecundario, $colorBlanco, none);
     }
 }

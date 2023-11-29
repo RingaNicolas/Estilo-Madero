@@ -5,12 +5,13 @@
 }
 
 .boxMateriales {
-    background-color: #E9D9CB;
-    border: 1px solid $colorSecundario;
+    background-color: $colorPrimario;
+    border: 1px solid $colorDetallesPrimario;
     margin: 10px;
+    transition: all 0.3s;
 
     &:hover {
-        margin: 13px;
-        border: 2px solid $colorResaltador;
+        transform: scale(1.02, 1.02);
+        border: 1px solid $colorDetallesSecundario;
     }
 }

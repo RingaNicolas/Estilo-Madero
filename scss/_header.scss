@@ -1,26 +1,30 @@
 /* HEADER */
 
 header {
-    background-color: #E9D9CB;
+    background-color: $colorPrimario;
     text-align: center;
     padding: 10px 20px;
 }
 
 .logo {
     width: 200px;
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
 }
 
 .navegador {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: $colorIconos;
+    color: $colorNegro;
     font-size: 1rem;
-    border-radius: 25px;
+    transition: all 0.4s;
 
     &:hover {
-        font-size: 1.01rem;
-        color: $colorSecundario;
-        border-radius: 25px;
+        transform: scale(1.04, 1.04);
+        color: $colorDetallesPrimario;
     }
 }

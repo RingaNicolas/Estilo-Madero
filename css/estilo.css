@@ -18,6 +18,10 @@ header {
 
 .logo {
   width: 200px;
+  transition: all 0.5s;
+}
+.logo:hover {
+  transform: scale(1.2, 1.2);
 }
 
 .navegador {
@@ -26,12 +30,11 @@ header {
   font-weight: bold;
   color: #000000;
   font-size: 1rem;
-  border-radius: 25px;
+  transition: all 0.4s;
 }
 .navegador:hover {
-  font-size: 1.01rem;
+  transform: scale(1.04, 1.04);
   color: #6c757d;
-  border-radius: 25px;
 }
 
 /* FOOTER */
@@ -47,6 +50,10 @@ footer ul li {
 }
 footer ul li i {
   color: #000000;
+  transition: all 0.6s;
+}
+footer ul li:hover {
+  transform: scale(1.15, 1.15);
 }
 
 .atribucion {
@@ -55,16 +62,9 @@ footer ul li i {
 }
 
 /* INDEX */
-h1 {
-  text-align: center;
-  margin: 20px 0px;
-  margin-top: 70px;
-  font-weight: bold;
-}
-
 .contenedorIndex {
   background-color: #E9D9CB;
-  margin: 80px;
+  margin: 50px;
   margin-top: 0;
   padding: 20px;
   border-radius: 10px;
@@ -91,11 +91,6 @@ h1 {
 }
 
 /* PRODUCTOS */
-.tituloProductos {
-  margin: 40px;
-  margin-bottom: 10px;
-}
-
 .boxProductos {
   background-color: #E9D9CB;
   border: #6c757d 1px solid;
@@ -105,11 +100,13 @@ h1 {
   background-color: #6c757d;
   color: #fafafa;
   border: none;
+  transition: all 0.4s;
 }
 .botonCards:hover {
-  border: none;
+  transform: scale(1.02, 1.02);
   background-color: #3b9e96;
   color: #fafafa;
+  border: none;
 }
 
 /* TRABAJOS */
@@ -135,18 +132,18 @@ label {
 
 textarea {
   width: 100%;
-  padding: 10px;
   border: 2px solid #6c757d;
   border-radius: 5px;
+  padding: 10px;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
 input {
-  display: block;
   width: 50%;
   border: 2px solid #6c757d;
   border-radius: 5px;
+  display: block;
 }
 
 .listaContacto li {
@@ -155,17 +152,19 @@ input {
 }
 
 .botonFormulario {
-  width: 35%;
   background-color: #6c757d;
   color: #fafafa;
   border: none;
+  width: 35%;
   margin: 10px;
   margin-bottom: 20px;
+  transition: all 0.4s;
 }
 .botonFormulario:hover {
-  border: none;
+  transform: scale(1.02, 1.02);
   background-color: #3b9e96;
   color: #fafafa;
+  border: none;
 }
 
 /* MATERIALES */
@@ -177,16 +176,20 @@ input {
   background-color: #E9D9CB;
   border: 1px solid #6c757d;
   margin: 10px;
+  transition: all 0.3s;
 }
 .boxMateriales:hover {
-  margin: 13px;
-  border: 2px solid #3b9e96;
+  transform: scale(1.02, 1.02);
+  border: 1px solid #3b9e96;
 }
 
 /* MEDIA QUERIES */
 /* Version Tablet */
 @media (max-width: 1024px) {
   /* Index */
+  .contenedorIndex {
+    margin: 35px 20px;
+  }
   .textoIndex {
     font-size: 0.8rem;
   }
@@ -199,7 +202,7 @@ input {
 @media (max-width: 768px) {
   /* Index */
   .contenedorIndex {
-    margin: 40px;
+    margin: 40px 0;
   }
   .textoIndex {
     font-size: 1.2rem;
