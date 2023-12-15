@@ -111,11 +111,25 @@ footer ul li:hover {
 
 /* TRABAJOS */
 .tituloTrabajos {
-  margin: 20px 35px;
+  margin: 30px 70px;
+  font-weight: bold;
+}
+
+.contenedorFlex {
+  height: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
+}
+
+.video {
+  width: 45%;
 }
 
 iframe {
-  margin: 30px;
   border-radius: 20px;
 }
 
@@ -194,6 +208,15 @@ input {
     font-size: 0.8rem;
   }
   /* Trabajos */
+  .tituloTrabajos {
+    margin: 50px;
+  }
+  .contenedorFlex {
+    margin: 0;
+  }
+  .video {
+    width: 45%;
+  }
   iframe {
     height: 250px;
   }
@@ -201,6 +224,9 @@ input {
 /* Version Celular */
 @media (max-width: 768px) {
   /* Index */
+  .tituloTrabajos {
+    margin: 45px;
+  }
   .contenedorIndex {
     margin: 40px 0;
   }
@@ -212,8 +238,11 @@ input {
     margin: 20px;
   }
   /* Trabajos */
-  iframe {
-    height: 350px;
+  .contenedorFlex {
+    margin: 20px;
+  }
+  .video {
+    width: 100%;
   }
 }
 

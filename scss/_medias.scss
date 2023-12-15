@@ -14,6 +14,18 @@
     }
 
     /* Trabajos */
+    .tituloTrabajos {
+        margin: 50px;
+    }
+
+    .contenedorFlex {
+        margin: 0;
+    }
+
+    .video {
+        width: 45%;
+    }
+
     iframe {
         height: 250px;
     }
@@ -24,6 +36,10 @@
 @media (max-width: 768px) {
 
     /* Index */
+    .tituloTrabajos {
+        margin: 45px;
+    }
+
     .contenedorIndex {
         margin: 40px 0;
     }
@@ -38,7 +54,13 @@
     }
 
     /* Trabajos */
-    iframe {
-        height: 350px;
+    .contenedorFlex {
+        margin: 20px;
     }
+
+    .video {
+        width: 100%;
+    }
+
+
 }
